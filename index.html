@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>C.H. Park's Lab</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+  
+  
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  
+  
+  
+  
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">C.H. Park's Lab</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Who I am</a></li>
+          <!-- <li><a class="nav-link scrollto " href="#portfolio">What I've done</a></li> -->
+          <li class="dropdown"><a href="#portfolio"><span>What I've done</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <!-- <li><a href="#">Drop Down 1</a></li> -->
+              <li class="dropdown"><a href="#portfolio"><span>장애인지원</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="portfolio-details(audio_to_hwp).html">녹취록 자동 생성/번역 프로그램</a></li>
+                  <li><a href="portfolio-details(fast_tts).html">문서/이미지 음성 안내 프로그램</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#portfolio"><span>법관지원</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="portfolio-details(let_me_correct_typos).html">판결문 오타 검수 및 개인정보 비실명화 프로그램</a></li>
+                </ul>
+              </li><li class="dropdown"><a href="#portfolio"><span>대국민지원</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="portfolio-details(chatbot_for_all).html">사건진행/판례/법령 등 정보 제공 챗봇</a></li>
+                </ul>
+              </li>
+            </ul> 
+            
+          <li><a class="nav-link scrollto" href="#services">Interests</a></li>
+          <li><a class="nav-link scrollto" href="#faq">F.A.Q.</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li> -->
+            <!-- </ul> -->
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown"><span>Welcome</span></h2>
+          <p class="animate__animated fanimate__adeInUp">이곳은 제 개인적인 연구/개발의 성과와 향후 과제를 공유하는 곳입니다. <br>연구/개발한 성과가 많이 부족하지만 <br>누군가에게는 작게나마 도움이 될 수 있지 않을까 싶어 이를 공유합니다.<br><br>Since 12/27/2021</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Ubuntu</h2>
+          <p class="animate__animated animate__fadeInUp">서로에 대한 의지와 집단지성은 불가능을 가능으로 만드는 가장 확실한 수단입니다. <br>함께 정진할 분들, 통찰력을 나눠주실 분들을 언제나 환영합니다.</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <!-- <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
+          <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div> -->
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>About</h2>
+          <p>Who I am</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+            <p>
+              저는 박철홍(Chulhong Park)입니다.
+            </p>
+          
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            
+            
+            
+            <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3" data-aos="zoom-in">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">학력</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+              <i class="ri-body-scan-line"></i>
+              <h4 class="d-none d-lg-block">경력</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">연구</h4>
+            </a>
+          </li>
+          <!-- <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+              <i class="ri-store-line"></i>
+              <h4 class="d-none d-lg-block"></h4>
+            </a>
+          </li> -->
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>학력</h3>
+                <p class="fst-italic">
+                  
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> 서울대학교 전기공학부 중퇴</li>
+                  <li><i class="ri-check-double-line"></i> 서울대학교 법과대학 졸업</li>
+                  <li><i class="ri-check-double-line"></i> 서울대학교 법과대학원 석박사통합과정 수료(민법 전공)</li>
+                  <li><i class="ri-check-double-line"></i> UC Berkeley School of Law, Master of Laws (LL.M.)</li>
+                  <li><i class="ri-check-double-line"></i> Carnegie Mellon University School of Computer Science,<br> Natural Language Processing Executive Education 수료</li>
+                </ul>
+                <p>
+            
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-1.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>경력</h3>
+                <p>
+                </p>
+                <p class="fst-italic">
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> 사법연수원 40기 수료</li>
+                  <li><i class="ri-check-double-line"></i> 서울중앙지방법원(2014~2016)</li>
+                  <li><i class="ri-check-double-line"></i> 서울동부지방법원(2016~2018)</li>
+                  <li><i class="ri-check-double-line"></i> 대전지방법원(2018~2020)</li>
+                  <li><i class="ri-check-double-line"></i> 대전고등법원(2020~2021)</li>
+                  <li><i class="ri-check-double-line"></i> 대전지방법원(2021~)</li>
+                  <li><i class="ri-check-double-line"></i> UC Davis School of Law, Visiting Scholar(2022~2023)</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-2.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+               <h3>연구</h3> 
+                <p>
+                  <!-- Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum -->
+                </p>
+                <ul>
+                  
+                  <li><i class="ri-check-double-line"></i><a href='https://glaw.scourt.go.kr/wsjo/mhn/sjo240.do?mhnCtrlGbn=%EA%B8%B0%EC%82%AC&mhnCtrlNo=861024'>소유권에 기한 방해배제청구권의 행사 근거 및 행사 범위: 폐기물이 매립된 토지를 전전취득한 자가 매립행위를 한 자에 대하여 소유권에 기한 방해제거청구로 폐기물의 제거를 구할 수 있는지 (민사판례연구 제40권, 2018)</a></li>
+                  <li><i class="ri-check-double-line"></i><a href='https://library.scourt.go.kr/search/pub/pubDetail?seqNo=423&kind=1'>관리단집회의 의사/의결정족수 산정에 관한 실무상 제문제 (사법논집 제66집, 2018)</a></li>
+                  <li><i class="ri-check-double-line"></i><a href='https://library.scourt.go.kr/search/pub/pubDetail?seqNo=463&kind=1'>집합건물의 공용부분 변경/관리/보존에 관한 규범과 현실의 괴리 문제에 대한 해결 방안 (사법논집 제68집, 2019)</a></li>
+                  <li><i class="ri-check-double-line"></i><a href='https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002645067'>공해로 인한 손해배상소송에서의 인과관계에 대한 증명 부담 완화 (민사소송 제24권 제3호, 2020)</a></li>
+                  <li><i class="ri-check-double-line"></i><a href='https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002694236'>공공건설임대주택의 분양전환에 관한 문제: 특히 분양전환가격의 산정에 관하여 (사법 제55호, 2020)</a></li>
+                  <li><i class="ri-check-double-line"></i><a href='https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904779'>게임 저작물에 대한 저작권법의 보호범위 및 보호방식: 특히 게임의 규칙이나 진행방식 작동방식 등이 유사한 게임 사이에 있어 (사법 제62호, 2022)</a></li>
+                  <li><i class="ri-check-double-line"></i> 환경침해에 대한 구제수단으로서의 한국/미국의 유지청구권에 관한 비교법적 분석 (Article in review, 2023)</li>
+                  <li><i class="ri-check-double-line"></i> 법원의 대국민 업무 또는 대내 업무 처리에 있어 딥러닝 기술을 이용한 자연어처리 기술을 활용할 필요성/가능성에 관한 검토 (Article in review, 2023)</li>
+                 
+                </ul>
+                <p class="fst-italic">
+                  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. -->
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-3.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <!-- <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
+                <p>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum
+                </p>
+                <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-out">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>최근 연구</h3>
+            <p> 어떤 게임이 성공하면, 그 게임과 규칙, 진행방식, 작동방식 등이 유사한 카피켓 게임이 빠른 속도로 등장하곤 합니다. 이때 저작권법이 기존 게임을 어디까지 어떤 방식으로 보호하는지 살펴보았습니다.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002904779">원문 읽어보기</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Prototypes</h2>
+          <p>What I've done</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/team/audio_to_hwp.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="portfolio-details(audio_to_hwp).html"><i class="bi bi-cloud-arrow-down-fill"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Audio_to_hwp</h4>
+                <span>음성 파일을 입력받아 자동으로 녹취록을 작성/번역하는 프로그램입니다. 청각장애인 지원을 위해 개발하였습니다.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/fast_tts.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="portfolio-details(fast_tts).html"><i class="bi bi-cloud-arrow-down-fill"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Fast_tts</h4>
+                <span>문서나 문서 이미지를 입력받아 음성으로 읽어주고, 그림/사진을 입력받아 대략적인 내용을 설명해주는 프로그램입니다. 시각장애인 지원을 위해 개발하였습니다.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/let_me_correct_typos.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="portfolio-details(let_me_correct_typos).html"><i class="bi bi-cloud-arrow-down-fill"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Let_me_correct_typos</h4>
+                <span>판결문 Hwp 파일을 입력받아 이유 부분을 자동으로 인식해 오탈자와 개인정보에 해당할 가능성이 높은 부분을 찾아 대체지를 제시해주는 프로그램입니다. 법관 지원을 위해 개발하였습니다.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/chatbot_for_all.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="portfolio-details(chatbot_for_all).html"><i class="bi bi-cloud-arrow-down-fill"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Chatbot_for_all</h4>
+                <span>대화 형식으로 사건 진행 상황/대법원 판결/헌법재판소 결정/현행 법령 등에 관한 정보를 제공하는 챗봇입니다. 국민의 사법접근성을 높이기 위해 개발하였습니다.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div> 
+    </section><!-- End Team Section -->
+    
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Prototypes</h2>
+          <p>What I've done - details</p>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">장애인지원</li>
+          <li data-filter=".filter-card">법관지원</li>
+          <li data-filter=".filter-web">대국민지원</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/audio_to_hwp_1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Audio_to_hwp</h4>
+              <p>청각장애인 지원 프로그램</p>
+              <a href="assets/img/portfolio/audio_to_hwp_1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Audio_to_hwp - 녹취록 자동 생성/번역 프로그램"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details(audio_to_hwp).html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/chatbot_for_all_1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Chatbot_for_all</h4>
+              <p>사법정보 검색 지원 프로그램</p>
+              <a href="assets/img/portfolio/chatbot_for_all_1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Chatbot_for_all - 사건진행/판례/법령 등 정보 제공 챗봇"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details(chatbot_for_all).html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/fast_tts_1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Fast_tts</h4>
+              <p>시각장애인 지원 프로그램</p>
+              <a href="assets/img/portfolio/fast_tts_1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Fast_tts - 문서/이미지 음성 안내 프로그램"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details(fast_tts).html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/let_me_correct_typos_1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Let_me_correct_typos</h4>
+              <p>판결문 작성 지원 프로그램</p>
+              <a href="assets/img/portfolio/let_me_correct_typos_1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Let_me_correct_typos - 판결문 오타 검수 및 개인정보 비실명화 프로그램"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details(let_me_correct_typos).html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+<!-- 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+<!-- 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+<!-- 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+<!-- 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Interests</h2>
+          <p>What I'm interested in</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">민법</a></h4>
+              <p class="description">제 전공이자 세상을 보는 틀입니다. 멀어지지 않기 위해 두 해에 적어도 하나의 글을 쓰려고 노력하고 있습니다.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="">저작권법</a></h4>
+              <p class="description">유학 중에 관심을 갖게된 분야입니다. 특히 컴퓨터/게임에 관련된 내용으로 연구를 지속할 생각입니다.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">프로그래밍</a></h4>
+              <p class="description">어린시절에 포기했었기에 언제나 미련을 두고 있던 분야입니다. 작년부터 시간이 있을 때마다 즐기고 있습니다.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">업무자동화</a></h4>
+              <p class="description">삶의 즐거움은 일보다도 여가에서 온다고 생각합니다. 그렇기에 업무자동화를 통해 저를 포함한 많은 사람들의 여가시간을 늘리고 싶습니다.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+              <div class="icon"><i class="bi bi-globe" style="color: #d6ff22;"></i></div>
+              <h4 class="title"><a href="">자연어처리</a></h4>
+              <p class="description">제 업무는 자연어처리와 밀접하게 관련되어 있습니다. 딥러닝 모델을 활용한 자연어처리 기술이 발전한 요즘 제가 가장 관심을 두고 연구하고 있는 분야입니다.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
+              <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a href="">장애인지원</a></h4>
+              <p class="description">위와 같은 기술의 발전은 특히 청각/시각장애인을 더욱 적절하게 지원할 수 있게 해줍니다. 특히 법원 업무와 관련하여 청각/시각장애인 지원 기술을 만드는데 관심이 있습니다.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">이런 웹페이지를 만든 이유가 무엇인가요? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                임관하여 해외연수를 마칠 때까지 연구/개발한 성과를 정리해 공유하고 싶었기 때문입니다. 전력을 다해 상당한 기간 동안 연구/개발한 내용이 시간이 흘러감에 따라 의미없게 될 것 같다는 불안감도 다소 작용하였습니다.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">프로그램 언어를 배우고 프로그램을 만드는 데에는 많은 시간이 소요되는 것으로 알고 있는데 재판업무와 병행이 가능했나요? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                재판업무 중에는 다른 곳에 눈을 둘 시간이 없습니다. 재판업무를 맡았을 때에는 업무와 관련된 글을 틈틈이 작성할 수 있었을 뿐이었습니다. 프로그램 언어는 해외연수 기간을 활용해 다시 배웠고, 해외연수 기간에 위 프로그램의 프로토타입을 만들어 육아휴직 기간 중에 아들이 잠든 시간을 활용해 디버깅을 하였습니다. 이 웹페이지도 footer에서 확인할 수 있듯이 무료 템플릿을 활용하여 짧은 시간에 만들었습니다. 업무 복귀 후에는 프로그램 개발이나 웹 개발에 필요한 시간을 확보하기는 어려울 것 같습니다.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">이런 프로그램들을 개발하는 특별한 이유가 있나요? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                일차적으로는 지속적으로 글을 쓸 때와 마찬가지로 연구하고 창작하는 데에서 즐거움을 느끼기 때문입니다. 또 하나로는 자연어처리 기술이 향후 많은 분쟁을 야기할 것이라고 믿기 때문입니다. 해당 분쟁을 적절하게 해결하기 위해 기술의 구체적인 내용을 이해할 필요가 있다고 생각했습니다. 그리고 법원에서 활용될 수 있는 프로그램을 개발함으로써 보다 많은 사람을 도울 수 있다는 점도 큰 동기가 되고 있습니다.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">주로 오픈소스 Pretrained Language Model을 활용한 것 같은데, ChatGPT와 같은 Large Language Model을 사용하는 것이 성능면에서 더 좋지 않나요? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                OpenAI API 등을 활용해 LLM을 사용하는 것이 성능면에서는 월등합니다. 그럼에도 불구하고 PLM을 활용해 프로그램을 개발한 데에는 크게 두 가지 이유가 있습니다. 우선 법원에서 다루는 민감한 정보를 외부로 유출해서는 안 되기 때문입니다. 법원 업무에 LM을 활용하기 위해서는 인터넷 연결이 없는 상태에서 이를 로컬 컴퓨터에서 구동하거나 인트라넷 서버를 활용해 구동해야 할 것입니다. 현재 법원 컴퓨터와 서버의 연산 능력을 고려했을 때에는 PLM을 활용하는 것이 가장 현실적인 방안이라 생각했습니다. 두 번째로는 LLM 중에 Llama 등 일부 모델을 제외하고 공개된 모델이 없고, 공개된 모델을 fine-tuning하는 데에 필요한 컴퓨팅 자원을 마련할 수 없었기 때문입니다.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">LM 훈련이나 PLM 미세조정에 어떤 데이터를 사용했나요? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                법원 외부에 공개된 판결문을 수집해 일정한 기준에 따른 정제 절차를 거친 후에 훈련/미세조정 데이터로 활용했습니다. 법원 외부에 공개된 판결문에도 과거 판결문 중에는 개인정보가 포함되어 있는
+                경우가 있어 비실명화 모델을 사용해 비실명화를 거친 후에 데이터로 활용했습니다. 업무 중에 법원 내부 정보에 접근할 수 있으나 그 정보를 임의로 활용하는 것은 개인정보보호법 위반입니다. 위 프로그램들은 대부분 제가 법원 내부의 판결문 정보에 접근할 수 없는 때에 개발되었습니다. 
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">앞으로도 연구/개발을 할 계획이 있나요? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                재판업무를 하면서는 프로그램을 만들거나 PLM을 fine-tuning하는 일을 하기는 어려울 것 같습니다. 다만 앞으로도 자연어처리 기술을 활용함에 있어 민법, 저작권법, 개인정보보호법에 관련된 문제가 발생한 경우에 이를 어떻게 해결해야 할 것인지에 관하여 틈틈이 연구할 생각입니다.
+              </p>
+            </div>
+          </li>
+
+        
+
+        </ul>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Contact</h2>
+          <p>Contact Me</p>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>대전지방법원</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>innerpeace.chp@gmail.com</p>
+              </div>
+<!-- 
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>000-0000-0000</p>
+              </div> -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+<!-- 
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form> -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>C.H. Park's Lab</h3>
+      <p>정진합시다.</p>
+      <div class="social-links">
+        <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+        <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+        <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+        <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+        <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>C.H. Park</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
